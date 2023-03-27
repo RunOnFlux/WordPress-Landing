@@ -1,0 +1,403 @@
+body{
+  margin:0;
+  padding:0;
+  font-family:"montserrat" !important;
+  background: linear-gradient(180deg, #305C8D 0%, #14263A 10.42%, #13202F 35.63%, #161A23 100%);
+  background-size:100% 100%;
+  position: absolute;
+
+}
+main{
+  padding:0px;
+  margin:0px;
+}
+
+
+#nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left:10%;
+  padding-right:10%;
+  padding-top:20px;
+  overflow: hidden;
+  width:100%;
+  height:100px;
+}
+
+#logoNav{
+  float: left;
+  padding-top:0px;
+}
+
+.liNav {
+  float: right;
+}
+
+.liNav .aNav {
+  font-size:18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0px 30px;
+  padding-top:27px;
+  padding-bottom:35px;
+  text-decoration: none;
+}
+
+.imgANav {
+  font-size:18px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+  padding-left:0px;
+
+}
+
+.buttonNav{
+  margin-top:17px;
+  font-size:20px;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 40px;
+  text-decoration: none;
+  border:1px white solid;
+  border-radius:50px;
+}
+
+#header{
+  background-image:url(Images/Graphics/Map.svg);
+  background-size:100% 100%;
+  margin-top:50px;
+  text-align:center;
+  padding-left:10%;
+  padding-right:10%;
+  /*width:100%;*/
+}
+
+#containerDiv1{
+  padding:0px;
+  margin:0px;
+  text-align:left;
+  color:white;
+  display:block;
+}
+
+#containerDiv1 span{
+  position:absolute;
+  font-size:10px;
+  top:230px;
+  margin-left:5px;
+}
+
+#containerDiv1 h1{
+  display:block;
+  padding:0;
+  margin:0;
+  font-size:63px;
+  font-weight:bold !important;
+}
+
+#containerDiv1 p{
+  padding:0;
+  margin:0;
+  display:block;
+  margin-left:5px;
+  font-size:15px;
+  margin-bottom:20px;
+}
+
+#headerBut1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+background: #FFFFFF;
+border-radius: 70px;
+display:inline-block;
+align-items: center;
+text-align: center;
+color: #161A23;
+width:200px;
+padding-top:10px;
+/*height:50px;*/
+padding-bottom:10px;
+margin-bottom:9%;
+}
+#headerBut2{
+border: 2px solid #FFFFFF;
+border-radius: 70px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 150%;
+background: transparent;
+border-radius: 70px;
+display:inline-block;
+align-items: center;
+text-align: center;
+color: #FFFFFF;
+width:200px;
+padding-top:8px;
+height:50px;
+padding-bottom:10px;
+}
+
+
+
+#advantages{
+  margin-top:1%;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+  margin-bottom:5%;
+}
+
+#stats{
+  margin-top:10%;
+  text-align:center;
+  margin-left:5%;
+  margin-right:5%;
+}
+
+
+.textDiv{
+  color:white;
+  padding:0;
+  margin-bottom:40px;
+}
+
+.textDiv p{
+  margin-left:16% !important;
+  margin-right:16% !important;
+  margin:0;
+  font-size:15px;
+  color:lightgrey;
+}
+
+.textDiv h1{
+  margin-left:15%;
+  margin-right:15%;
+  font-size:50px;
+  font-weight:bold;
+}
+
+.Homepage_section11___CFge{
+  margin-bottom:0px !important;
+}
+
+.boxes{
+  background-color: #142130 !important;
+  border:#142130 !important;
+  padding: 35px 20px !important;
+
+}
+
+.boxes h5{
+  color:white !important;
+}
+
+.boxes h6{
+  color:lightgrey !important;
+}
+
+.advImg{
+  background-color:#142130 !important;
+  box-shadow:11.2442px 11.2442px 18.7404px 1.49923px rgba(0,0,0,.2) !important;
+}
+
+
+#squigly{
+  position:static;
+  width:67.4670571%;
+  height:84.2861331%;
+}
+
+#partners{
+  background: #162637;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:150px;
+  align-items: center;
+  text-align: center;
+  margin-bottom:5%;
+}
+
+#partners h6{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 150%;
+  display: block;
+  padding-top:25px;
+  padding-bottom:25px;
+
+  text-transform: uppercase;
+  color: #0095FF;
+
+}
+
+#fade{
+  float: left;
+  background: linear-gradient(0.25turn, #rgba(22, 38, 55, 0.3), #162637, #rgba(22, 38, 55, 0.3));
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:150px;
+}
+
+#fade li{
+  float:left;
+  margin-left:50px;
+  margin-bottom:0px;
+  margin-top:0px;
+  margin-right:0px;
+}
+/*50px space between logos*/
+
+#plans{
+  text-align:center;
+  /*align-items: center;*/
+}
+
+#plansButton1{
+display:block;
+position: absolute;
+width: 275.096666667px;
+height: 57.1133333333px;
+left:180px;
+top:80%;
+
+background: #0095FF;
+border-radius: 100px;
+}
+#plansButton1 a{
+  font-weight:bold;
+  color:white;
+  text-decoration:none;
+  padding-top:15px;
+  display:block;
+}
+
+#plansButton2{
+display:block;
+position: absolute;
+width: 275.096666667px;
+height: 57.1133333333px;
+left:545px;
+top:80%;
+
+background: #0095FF;
+border-radius: 100px;
+}
+#plansButton2 a{
+  color:white;
+  font-weight:bold;
+  text-decoration:none;
+  padding-top:15px;
+  display:block;
+}
+
+#plansButton3{
+display:block;
+position: relative;
+width: 275.096666667px;
+height: 57.1133333333px;
+left:900px;
+top:80%;
+
+background: #FFFFFF;
+border-radius: 100px;
+}
+#plansButton3 a{
+  font-weight:bold;
+  color:#161A23;;
+  text-decoration:none;
+  padding-top:15px;
+  display:block;
+}
+
+#Plans1{
+  text-align:center;
+  margin:0px;
+  padding:0px;
+  display:block;
+}
+
+.plansPlacement1{
+  margin-left:0%;
+}
+.plansPlacement2{
+  margin-left:35%;
+}
+.plansPlacement3{
+  margin-left:75%;
+}
+
+#daplans{
+  width: 79.0629575%;
+  height: 79.0798611%;
+}
+
+.lightblue{
+  width:100%;
+  height:80%;
+  background-color:#162A41;
+  border-top-left-radius: 200px
+}
+
+.darkblue{
+  width:100%;
+  height:70%;
+  background-color:#14263A;
+  border-top-left-radius: 200px;
+}
+
+.darkblue .textDiv{
+  padding-top:3%;
+  text-align:center;
+}
+
+.darkerblue{
+  width:100%;
+  background-color:#1B202D;
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+
+
+.rows{
+  margin-left:15%;
+  width:70%;
+}
+
+.column3 {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+.column3-large {
+  float: left;
+  width: 66.66%;
+  padding: 10px;
+}
+
+.column3-small {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.rows::after {
+  content: "";
+  clear: both;
+  display: table;
+}
