@@ -730,6 +730,7 @@ border-radius: 100px;
 
 .currency{
   color:#303B52!important;
+  font-size:2.3rem!important;
 }
 
 .dropdown-content-dropped {
@@ -797,7 +798,8 @@ border-radius: 100px;
 
 
 .footer_footer__l5XV_{
-  background-color:#E2E7F2;
+  background-color:rgba(43,97,209,.1);
+  padding:50px 5px;
   color:#B1B7C7!important;
 }
 
@@ -823,7 +825,3 @@ border-radius: 100px;
     z-index: 2;
 }
 
-.footer_icons__haoRZ, .footer_footer__l5XV_ .mb-4 {
-  width:100%!important;
-  text-align:center!important;
-}
