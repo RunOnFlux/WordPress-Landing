@@ -602,8 +602,9 @@ border-radius: 100px;
 }
 
 .rows img{
-  border:#14263A solid 0px;
-  border-radius:25px;
+  border:black solid 0px;
+  border-radius:50px;
+  text-align:center;
 }
 
 .column3 {
@@ -614,7 +615,6 @@ border-radius: 100px;
 .column3-large {
   float: left;
   width: 66%;
-  padding: 10px;
 }
 
 .column3-small {
@@ -727,26 +727,31 @@ border-radius: 100px;
   width: 100%;
   overflow: auto;
 }
-.dropdown:hover .dropdown-content {
+
+.dropdown-content-dropped {
   display: block;
   border-bottom:#0095FF solid 2px;
 }
-.dropdown:hover{
+.dropdown-dropped{
   border-bottom:white solid 0px;
   margin-bottom:10%;
 }
 
-.dropdown:hover .poc{
-  content: url("Images/Icons/chevron-up.svg")
+.dropdown-raised{
+  display: block;
+  position: relative;
+  border-bottom:white solid 2px;
+}
+
+.dropdown-content-raised {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
 }
 
 .FAQS{
   margin-bottom:5%;
-}
-
-
-.poc{
-  content: url("Images/Icons/chevron-down.svg")
 }
 
 .dropdown-content a {
