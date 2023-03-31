@@ -14,21 +14,23 @@ var dropdowns3 = document.getElementById("dropdown3");
 var dropdownContent3 = document.getElementById("dropdown-content3");
 var dropdowns4 = document.getElementById("dropdown4");
 var dropdownContent4 = document.getElementById("dropdown-content4");
+
+
 function whatSlide(){
     if(currentSlide == 1) {
       
-      imgSrc = "Images/Graphics/Reviews.svg"
-      imgSrc1 = "Images/Graphics/Reviews (1).svg"
+      imgSrc = "Images/Graphics/Reviews (4).svg"
+      imgSrc1 = "Images/Graphics/Reviews (3).svg"
       
     }else if(currentSlide == 2){
       
       imgSrc = "Images/Graphics/Reviews (2).svg"
-      imgSrc1 = "Images/Graphics/Reviews (3).svg"
+      imgSrc1 = "Images/Graphics/Reviews.svg"
       
     }else if(currentSlide == 3){
       
-      imgSrc = "Images/Graphics/Reviews (4).svg"
-      imgSrc1 = "Images/Graphics/Reviews (4).svg"
+      imgSrc = "Images/Graphics/Reviews (1).svg"
+      imgSrc1 = "Images/Graphics/Reviews (3).svg"
       
     }else if(currentSlide < 0){
        currentSlide = 3;
@@ -162,4 +164,4 @@ function slideforward() {
   }
   }
  }
- 
+
