@@ -1,6 +1,14 @@
-let currentSlide = 0;
+let currentSlide =1;
+
 let imgSrc = "";
 let imgSrc2 = "";
+let name1 = "";
+let name2 = "";
+let Rtext1 = "";
+let Rtext2 = "";
+
+
+
 let isDown = false;
 let isDown2 = false;
 let isDown3 = false;
@@ -19,23 +27,27 @@ var dropdownContent4 = document.getElementById("dropdown-content4");
 function whatSlide(){
     if(currentSlide == 1) {
       
-      imgSrc = "Images/Graphics/Reviews (4).svg"
-      imgSrc1 = "Images/Graphics/Reviews (5).svg"
+      imgSrc = "Images/Logos/SHIB.png";
+      name1 = "Shib Directory";
+      Rtext1 = "“ShibDirectory.com is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over!”";
+      imgSrc2 = "Images/Icons/Avatar.svg";
+      name2 = "Richard Lofthouse";
+      Rtext2 = "“I made the switch to WordPress and discovered the power of Flux, a game-changing decentralized cloud platform! My transition to #WordPress and Flux not only saved me money but also opened the door to a world of customization and improved website performance. The result? A more professional, responsive, and engaging online presence.”";
       
     }else if(currentSlide == 2){
       
-      imgSrc = "Images/Graphics/Reviews (3).svg"
-      imgSrc1 = "Images/Graphics/Reviews (3).svg"
+      imgSrc = "Images/Icons/Avatar.svg";
+      name1 = "Richard Lofthouse";
+      Rtext1 = "“I made the switch to WordPress and discovered the power of Flux, a game-changing decentralized cloud platform! My transition to #WordPress and Flux not only saved me money but also opened the door to a world of customization and improved website performance. The result? A more professional, responsive, and engaging online presence.”";
+      imgSrc2 = "Images/Logos/SHIB.png";
+      name2 = "Shib Directory";
+      Rtext2 = "ShibDirectory.com“ is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over!”";
       
-    }else if(currentSlide == 3){
-      
-      imgSrc = "Images/Graphics/Reviews (3).svg"
-      imgSrc1 = "Images/Graphics/Reviews (3).svg"
       
     }else if(currentSlide < 0){
-       currentSlide = 3;
+       currentSlide = 2;
        whatSlide();
-    }else if(currentSlide ==4){
+    }else if(currentSlide == 3){
       currentSlide = 1;
       whatSlide();
     }
@@ -45,15 +57,29 @@ function whatSlide(){
 function slideforward() {
     currentSlide++;
     whatSlide();
-    document.getElementById("review1").src = imgSrc;
-    document.getElementById("review2").src = imgSrc1;
+    document.getElementById("reviewicon1").src = imgSrc;
+    document.getElementById("reviewicon2").src = imgSrc2;
+    
+    document.getElementById("reviewText1").innerHTML = Rtext1;
+    document.getElementById("reviewText2").innerHTML = Rtext2;
+    
+    document.getElementById("name1").innerHTML = name1;
+    document.getElementById("name2").innerHTML = name2;
+
+
  }
 
  function slidebackward() {
     currentSlide--;
     whatSlide();
-    document.getElementById("review1").src = imgSrc;
-    document.getElementById("review2").src = imgSrc1;
+    document.getElementById("reviewicon1").src = imgSrc;
+    document.getElementById("reviewicon2").src = imgSrc2;
+    
+    document.getElementById("reviewText1").innerHTML = Rtext1;
+    document.getElementById("reviewText2").innerHTML = Rtext2;
+    
+    document.getElementById("name1").innerHTML = name1;
+    document.getElementById("name2").innerHTML = name2;
  }
 
  
