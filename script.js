@@ -13,6 +13,9 @@ let isDown = false;
 let isDown2 = false;
 let isDown3 = false;
 let isDown4 = false;
+let border1 = false;
+let border2 = false;
+
 
 var dropdowns = document.getElementById("dropdown1");
 var dropdownContent = document.getElementById("dropdown-content1");
@@ -30,9 +33,12 @@ function whatSlide(){
       imgSrc = "Images/Logos/SHIB.png";
       name1 = "Shib Directory";
       Rtext1 = "“ShibDirectory.com is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over! I decided to make the switch because I was tired of dealing with all the secondary costs and downsides associated with traditional, centralized web2 web hosting. I also wanted to make sure that the directory was running on a decentralized platform.”";
+      border1 = true;
+      
       imgSrc2 = "Images/Icons/Avatar.svg";
       name2 = "Richard Lofthouse";
       Rtext2 = "“I made the switch to WordPress and discovered the power of Flux, a game-changing decentralized cloud platform! My transition to #WordPress and Flux not only saved me money but also opened the door to a world of customization and improved website performance. The result? A more professional, responsive, and engaging online presence.”";
+      border2 = false;
       
     }else if(currentSlide == 2){
       
@@ -42,6 +48,9 @@ function whatSlide(){
       imgSrc2 = "Images/Logos/SHIB.png";
       name2 = "Shib Directory";
       Rtext2 = "“ShibDirectory.com is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over! I decided to make the switch because I was tired of dealing with all the secondary costs and downsides associated with traditional, centralized web2 web hosting. I also wanted to make sure that the directory was running on a decentralized platform.”";
+      border2 = true;
+      border1 = false;
+    
     
     }else if(currentSlide == 3){
       
@@ -51,11 +60,13 @@ function whatSlide(){
       imgSrc2 = "Images/Icons/Avatar 2.svg";
       name2 = "Jiří Vlček";
       Rtext2 = "“I chose WordPress FLUX WEB3 Cloud mainly because of redundancy and the ability to scale using geolocation. I was also very pleased with the feature that ensures that my project will always be deployed on at least 3 nodes. All this at an unbeatable price. Thank you FLUX.”";
-    
-    }else if(currentSlide < 0){
+      border1 = false;
+      border2 = false;
+
+    }else if(currentSlide <= 0){
        currentSlide = 3;
        whatSlide();
-    }else if(currentSlide == 4){
+    }else if(currentSlide === 4){
       currentSlide = 1;
       whatSlide();
     }
@@ -73,7 +84,17 @@ function slideforward() {
     
     document.getElementById("name1").innerHTML = name1;
     document.getElementById("name2").innerHTML = name2;
-
+    
+    if(border1 === true){
+      document.getElementById("reviewicon1").classList.add("border");
+    }else if(border1 === false){
+      document.getElementById("reviewicon1").classList.remove("border");
+    }
+    if(border2 === true){
+      document.getElementById("reviewicon2").classList.add("border");
+    }else if(border2 === false){
+      document.getElementById("reviewicon2").classList.remove("border");
+    }
 
  }
 
@@ -88,6 +109,17 @@ function slideforward() {
     
     document.getElementById("name1").innerHTML = name1;
     document.getElementById("name2").innerHTML = name2;
+    
+    if(border1 === true){
+      document.getElementById("reviewicon1").classList.add("border");
+    }else if(border1 === false){
+      document.getElementById("reviewicon1").classList.remove("border");
+    }
+    if(border2 === true){
+      document.getElementById("reviewicon2").classList.add("border");
+    }else if(border2 === false){
+      document.getElementById("reviewicon2").classList.remove("border");
+    }
  }
 
  
