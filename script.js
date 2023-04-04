@@ -235,14 +235,20 @@ function slideforward() {
 toggle between hiding and showing the dropdown content */
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("dropdowna").classList.toggle("dropdowna-hover");
+
 }
 
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
   var myDropdown = document.getElementById("myDropdown");
+  var dropdowna = document.getElementById("dropdowna");
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
+    }
+    if (myDropdown.classList.contains('dropdowna-hover')) {
+      myDropdown.classList.remove('dropdowna-hover');
     }
   }
 }
