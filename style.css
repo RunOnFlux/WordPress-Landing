@@ -12,8 +12,56 @@ main{
   margin:0px;
 }
 
+.dropdowna {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdowna .dropbtn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-contenta {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  right:5%;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-contenta a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-contenta a:hover {
+  background-color: #ddd;
+}
+
+.dropbtn:hover,.dropdowna:hover .dropbtn{
+  color:black!important;
+}
+
+.show {
+  display: block;
+}
 
 
+.divNav{
+  padding-top:13%;
+}
 
 #nav {
   list-style-type: none;
@@ -77,8 +125,9 @@ main{
   padding-left:7%;
   padding-right:7%;
   background-color:#FFFFFF;
-  border-radius:20px;
+  border-radius:18px;
 }
+
 .pricing .prof .card-body{
   text-align:left;
   padding:0px;
@@ -597,7 +646,7 @@ border-radius: 100px;
 
 .rows img{
   border:black solid 0px;
-  border-radius:50px;
+  border-radius:20%, 20%, 20%, 20%;
   text-align:center;
 }
 
@@ -872,6 +921,7 @@ border-radius: 100px;
 
 .reviewContainer .border{
   border:white 2px solid;
+  border-radius:50px;
 }
 
 .reviewContainer h3{
@@ -899,9 +949,22 @@ border-radius: 100px;
   float:left;
 }
 
+.navDrop{
+  visibility:hidden;
+}
+/*navDrop*/
 
-
-
+@media (max-width:1300px){
+  .navDrop{
+    visibility:visible!important;
+  }
+  #logoNav{
+    visibility:visible;
+  }
+  .liNav{
+    visibility:hidden;
+  }
+}
 
 
 
