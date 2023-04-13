@@ -947,7 +947,7 @@ border-radius: 100px;
 }
 
 .reviews-container{
-  height:20%;
+  height:25%;
   margin-left:15%;
 }
 .reviews-container .textDiv{
@@ -955,7 +955,7 @@ border-radius: 100px;
 }
 
 .reviewContainer{
-  height:35vh;
+  height:45vh;
   margin-top:2.4%;
   background-color:#191D28;
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
@@ -981,18 +981,18 @@ border-radius: 100px;
   font-weight:bold;
   color:white;
   width:78.5%;
-  font-size:1.5vw;
+  font-size:200%;
 }
 
 .reviewContainer h4{
   margin-left:21.5%;
   margin-top:12%;
   color:white;
-  font-size:1.2vw;
+  font-size:150%;
 }
 
 .reviewContainer i{
-  font-size:1vw;
+  font-size:100%;
   color:#BDBDBD;
 }
 
@@ -1034,6 +1034,78 @@ border-radius: 100px;
     .imgANav{
       width:20%!important;
     }
+    .reviews-container{
+      margin-left:0%;
+      height:100%;
+    }
+    .reviews-container .textDiv h1{
+      font-size: 30px!important;
+    }
+    
+    .reviewContainer{
+      height:auto;
+      margin-bottom:10%;
+      margin-top:2.4%;
+      background-color:#191D28;
+      box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+      text-align:left;
+      border-radius:20px;
+    }
+    
+    
+    .reviewContainer img{
+      margin-left:3%;
+      margin-top:3%;
+      width:20%;
+    }
+    
+    .arrowright{
+      margin-left: 0!important;
+    }
+    
+    .reviewContainer .border{
+      border:white 2px solid;
+      border-radius:50px;
+    }
+    
+    .reviewContainer h3{
+      margin-top:6%;
+      margin-left:2.5%;
+      font-weight:bold;
+      color:white;
+      width:100%!important;
+      font-size:150%;
+    }
+    
+    .reviewContainer h4{
+      margin-left:21.5%;
+      margin-top:12%;
+      color:white;
+      font-size:100%;
+    }
+    
+    .reviewContainer i{
+      font-size:100%;
+      color:#BDBDBD;
+    }
+    
+    .reviews .rows .column2{
+      width:100%;
+    }
+
+.dropdown button{
+  font-size:20px;
+}
+
+.dropdown-dropped{
+  margin-bottom:100%;
+}
+
+.FAQS .arrow{
+  width:20%;
+  display:inline-block;
+  float:right !important;
+}
 }
 
 
