@@ -30,9 +30,9 @@ var dropdownContent4 = document.getElementById("dropdown-content4");
 function whatSlide(){
     if(currentSlide == 1) {
       
-      imgSrc = "Images/Logos/SHIB.png";
-      name1 = "Shib Directory";
-      Rtext1 = "“ShibDirectory.com is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over! I decided to make the switch because I was tired of dealing with all the secondary costs and downsides associated with traditional, centralized web2 web hosting. I also wanted to make sure that the directory was running on a decentralized platform.”";
+      imgSrc = "Images/Icons/onur.jpg";
+      name1 = "Onur Oztaskiran";
+      Rtext1 = "“Can a WordPress + WooCommerce + WPML website be this unreal fast(practically was impossible with those active to date)? Yes.”" ;
       border1 = true;
       
       imgSrc2 = "Images/Icons/Avatar.svg";
@@ -45,9 +45,10 @@ function whatSlide(){
       imgSrc = "Images/Icons/Avatar 2.svg";
       name1 = "Jiří Vlček";
       Rtext1 = "“I chose WordPress FLUX WEB3 Cloud mainly because of redundancy and the ability to scale using geolocation. I was also very pleased with the feature that ensures that my project will always be deployed on at least 3 nodes. All this at an unbeatable price. Thank you FLUX.”";
-      imgSrc2 = "Images/Logos/SHIB.png";
-      name2 = "Shib Directory";
-      Rtext2 = "“ShibDirectory.com is now fully migrated to a decentralized Web3 Flux Cloud. It was a blast moving it over! I decided to make the switch because I was tired of dealing with all the secondary costs and downsides associated with traditional, centralized web2 web hosting. I also wanted to make sure that the directory was running on a decentralized platform.”";
+      
+      imgSrc2 = "Images/Icons/onur.jpg";
+      name2 = "Onur Oztaskiran";
+      Rtext2 = "“Can a WordPress + WooCommerce + WPML website be this unreal fast(practically was impossible with those active to date)? Yes.”";
       border2 = true;
       border1 = false;
     
@@ -84,6 +85,22 @@ function slideforward() {
     
     document.getElementById("name1").innerHTML = name1;
     document.getElementById("name2").innerHTML = name2;
+
+    if(document.getElementById("name1").innerHTML == "Onur Oztaskiran"){
+      document.getElementById("twittervid").classList.remove("hideVid");
+      document.getElementById("twittervid").classList.add("showVid");
+    }else{
+      document.getElementById("twittervid").classList.remove("showVid");
+      document.getElementById("twittervid").classList.add("hideVid");
+    }
+
+    if(document.getElementById("name2").innerHTML == "Onur Oztaskiran"){
+      document.getElementById("twittervid2").classList.remove("hideVid");
+      document.getElementById("twittervid2").classList.add("showVid");
+    }else{
+      document.getElementById("twittervid2").classList.remove("showVid");
+      document.getElementById("twittervid2").classList.add("hideVid");
+    }
     
     if(border1 === true){
       document.getElementById("reviewicon1").classList.add("border");

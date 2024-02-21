@@ -13,6 +13,21 @@ main{
   width:100%;
 }
 
+.tempsolution .container{
+  margin-left: 0%;
+  margin-right: 0%;
+  width: 100%;
+  padding: 0;
+  max-width: 100%;
+}
+
+.showVid{
+  visibility: visible;
+}
+
+.hideVid{
+  visibility: hidden;
+}
 
 #nav {
     min-height: 6em;
