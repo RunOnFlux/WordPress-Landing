@@ -176,7 +176,14 @@ html:not([data-scroll='0']) body {
   padding-right:7%;
   background-color:#FFFFFF;
   border-radius:18px;
+  min-height: 660px;
+}
+
+@media only screen and (max-width: 1200px){
+  .pricing .card-body{
   min-height: 630px;
+  }
+
 }
 
 @media only screen and (max-width: 1500px) and (min-width:800px) {
