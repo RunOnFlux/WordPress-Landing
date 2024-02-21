@@ -29,6 +29,8 @@ main{
   visibility: hidden;
 }
 
+
+
 #nav {
     min-height: 6em;
     height:6em;
@@ -174,7 +176,23 @@ html:not([data-scroll='0']) body {
   padding-right:7%;
   background-color:#FFFFFF;
   border-radius:18px;
+  min-height: 630px;
 }
+
+@media only screen and (max-width: 1500px) and (min-width:800px) {
+  .tempsolution .col-lg-3{
+    width: 50%;
+  }
+  .card-body{
+    margin-top: 10%;
+  }
+}
+@media only screen and (max-width:1000px) {
+  .row{
+    margin-right: 0;
+  }
+}
+
 
 .pricing .prof .card-body{
   text-align:left;
