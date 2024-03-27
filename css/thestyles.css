@@ -420,6 +420,7 @@ html:not([data-scroll='0']) body {
   padding-left:10%;
   padding-right:10%;
   /*width:100%;*/
+  padding-bottom: 15%;
 }
 
 #containerDiv1{
