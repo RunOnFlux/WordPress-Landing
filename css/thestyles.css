@@ -405,6 +405,26 @@ html:not([data-scroll='0']) body {
   border:1px white solid;
   border-radius:50px;
 }
+.scroll-indicator {	
+	position:absolute;
+	left: 50%;
+	font-size: 50px;
+	
+	-webkit-animation: bounce 1s infinite; 
+	animation: bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+	 0% { top: 8%; }
+	 50%   { top: 8.5%; }
+	 100% { top: 8%; }
+}
+
+@keyframes bounce {
+  0% { top: 8%; }
+  50%   { top: 8.5%; }
+  100% { top: 8%; }
+}
 
 .buttonNav:hover{
   border:1px #14263A solid;
@@ -1073,6 +1093,9 @@ border-radius: 100px;
 @media only screen and (max-width: 1000px) {
     .bigText {
       font-size: 40px!important;
+    }
+    .scroll-indicator{
+      visibility: hidden;
     }
     
     .mediumText{
