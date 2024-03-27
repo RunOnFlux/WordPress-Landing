@@ -416,13 +416,15 @@ html:not([data-scroll='0']) body {
 
 @-webkit-keyframes bounce {
 	 0% { top: 8%; }
-	 50%   { top: 8.5%; }
+	 30%   { top: 8.1%; }
+	 60%   { top: 8.1%; }
 	 100% { top: 8%; }
 }
 
 @keyframes bounce {
   0% { top: 8%; }
-  50%   { top: 8.5%; }
+  30%   { top: 8.1%; }
+  60%   { top: 8.1%; }
   100% { top: 8%; }
 }
 
