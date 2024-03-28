@@ -295,6 +295,10 @@ html:not([data-scroll='0']) body {
   color:#BDBDBD !important;
 }
 
+.row{
+  margin-top: 0 !important;
+}
+
 .pricing .card-price {
   color:#303B52;
   font-weight: bold;
