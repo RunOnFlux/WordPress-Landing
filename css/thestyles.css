@@ -132,7 +132,6 @@ html:not([data-scroll='0']) body {
 #logoNav{
   float: left;
   padding-top:0px;
-  width:20%;
 }
 
 .liNav {
@@ -445,7 +444,6 @@ html:not([data-scroll='0']) body {
   text-align:center;
   padding-left:10%;
   padding-right:10%;
-  /*width:100%;*/
   padding-bottom: 15%;
 }
 
@@ -1094,12 +1092,15 @@ border-radius: 100px;
     width:80%;
   }
 }
-
+.bigText {
+  padding-bottom: 50px !important;
+}
 
 @media only screen and (max-width: 1000px) {
     .bigText {
-      font-size: 40px!important;
+      font-size: 40px !important;
     }
+
     .scroll-indicator{
       visibility: hidden;
     }
@@ -1171,19 +1172,19 @@ border-radius: 100px;
       width:100%;
     }
 
-.dropdown button{
-  font-size:20px;
-}
+  .dropdown button{
+    font-size:20px;
+  }
 
-.dropdown-dropped{
-  margin-bottom:100%;
-}
+  .dropdown-dropped{
+    margin-bottom:100%;
+  }
 
-.FAQS .arrow{
-  width:20%;
-  display:inline-block;
-  float:right !important;
-}
+  .FAQS .arrow{
+    width:20%;
+    display:inline-block;
+    float:right !important;
+  }
 }
 
 
